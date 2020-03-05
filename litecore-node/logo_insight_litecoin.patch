@@ -7,7 +7,7 @@ index a0429f6..805ca48 100644
  	<meta name="viewport" content="width=device-width,initial-scale=1.0">
  	<meta name="fragment" content="!">
 -	<title data-ng-bind="$root.title + $root.titleDetail + ' | Insight'">Insight</title>
-+	<title data-ng-bind="$root.title + $root.titleDetail + ' | Litecoin Insight by Berrywallet'">Litecoin Insight by Berrywallet</title>
++	<title data-ng-bind="$root.title + $root.titleDetail + ' | Litecoin'">Litecoin Insight</title>
  	<meta name="keywords" content="litecoins, transactions, blocks, address, block chain, best block, mining difficulty, hash serialized">
  	<meta name="description" content="Litecoin Insight. View detailed information on all litecoin transactions and block. {{ $root.title + $root.titleDetail }}">
  	<link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
@@ -22,7 +22,6 @@ index c00b8ff..dd4f943 100644
 -      <a class="insight navbar-brand" href=".">insight</a>
 +      <div class="insight navbar-brand" style="position: relative;min-height: 63px; padding: 15px 8px !important;">
 +        <a href="." style="color: white;font-size: 24px;">Litecoin Insight</a>
-+        <a href="https://berrywallet.io" title="Tastiest cryptocurrency wallet" style="position: absolute;cursor: pointer;color: white;font-size: 10px;bottom: 4px;background: rgb(178, 36, 239);border-radius: 3px;padding: 3px 8px;right: 7px;line-height: 1;">by Berrywallet</a>
 +      </div>
      </div>
      <div class="navbar-collapse collapse" collapse="$root.isCollapsed">
