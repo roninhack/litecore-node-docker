@@ -3,11 +3,11 @@ Litecore Node + Insight API + Insight UI in Docker
 
 To run **testnet** (the default):
 
-`docker run -d -p 3001:3001 -p 19335:19335 -v /root/litecoin-node/testnet:/root/litecoin-node/data --name litecoin-testnet berrywallet/litecore-node`
+`docker run -d -p 3001:3001 -p 19335:19335 -v /mnt/hddextra/litecoin-node/testnet:/mnt/hddextralitecoin-node/data --name litecoin-testnet roninhack/litecore-node`
 
 To run for **livenet**:
 
-`docker run -e LITECOIN_LIVENET=1 -d -p 3001:3001 -p 9333:9333 -v /root/litecoin-node/livenet:/root/litecoin-node/data --name litecoin-livenet berrywallet/litecore-node`
+`docker run -e LITECOIN_LIVENET=1 -d -p 3001:3001 -p 9333:9333 -v /mnt/hddextra/litecoin-node/livenet:/mnt/hddextra/litecoin-node/data --name litecoin-livenet roninhack/litecore-node`
 
 
 Tip: Ports 9333 (livenet) and 19335 (testnet) are inbound for litecoind. Exposing them is just recommended.
