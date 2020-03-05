@@ -17,7 +17,7 @@ RUN apt-get update && \
 
 EXPOSE 3001 9333 19335
 
-WORKDIR /mnt/hddextra/litecoin-node/
+WORKDIR /root/litecoin-node
 COPY litecore-node ./
 RUN npm config set package-lock false && \
   npm install && \
