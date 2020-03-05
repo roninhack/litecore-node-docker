@@ -61,4 +61,4 @@ HEALTHCHECK --interval=5s --timeout=5s --retries=5 CMD curl -s "http://localhost
 
 ENTRYPOINT ["/usr/bin/dumb-init", "--", "./litecore-node-entrypoint.sh"]
 
-VOLUME /root/litecoin-node/data
+VOLUME /mnt/hddextra/litecoin-node/data
